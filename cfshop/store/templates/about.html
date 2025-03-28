@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}About Us - My Shop{% endblock %}
+
+{% block content %}
+<!-- Header Section -->
+<header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+            <h1 class="display-4 fw-bolder">About Us</h1>
+            <p class="lead fw-normal text-white-50 mb-0">Everything about my shop</p>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content Section -->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="fw-bolder mb-4">Về chúng tôi</h2>
+                <p class="lead">
+                    <strong>Chào mừng bạn đến với TinyHao Coffee, nơi mang tới cho bạn những trải nghiệm về đồ uống tốt nhất trên thế giới</strong>
+                </p>
+                <p>
+                    TinyHao Coffee là thiên đường dành cho tín đồ đồ uống! 
+                    Từ những ly cà phê thơm nồng được pha chế tỉ mỉ đến trà sữa beo béo đúng chuẩn gu Gen Z - chúng tôi mang đến trải nghiệm "nhấp một ngụm, vui cả ngày".
+                </p>
+
+                <h2 class="fw-bolder mt-5 mb-4">Tại sao chọn chúng tôi?</h2>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Sản phẩm chất lượng cao</li>
+                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Giao hàng nhanh chóng và đáng tin cậy</li>
+                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Hỗ trợ khách hàng 24/7</li>
+                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Thanh toán an toàn, bảo mật</li>
+                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Chính sách đổi trả linh hoạt</li>
+                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Nhiều ưu đãi và khuyến mãi hấp dẫn</li>
+                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Đội ngũ chuyên nghiệp và tận tâm</li>
+                </ul>
+                
+
+                <div class="text-center mt-5">
+                    <a href="{% url 'home' %}" class="btn btn-dark btn-lg">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
